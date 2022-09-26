@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+
+<body class="themeDark">
+  <header>
+    <h1>TODO</h1>
+    <div class="themeBlock">
+      <input type="checkbox" name="theme" id="theme">
+      <label for="theme"></label>
+    </div>
+  </header>
+
+  <main>
+    <div class="addNewItem">
+      <span></span>
+      <input type="text" placeholder="Create a new todo..." name="addItem" id="addItem">
+    </div>
+  </main>
+
+  <section class="content">
+    <ul>
+      
+    </ul>
+  </section>
+
+  <nav>
+    <div class="itemsLeft"><span></span> items left</div>
+    <div class="filter">
+      <label>
+        <input type="radio" name="filter" id="all" checked>
+        <span>All</span>
+      </label>
+      <label>
+        <input type="radio" name="filter" id="active">
+        <span>Active</span>
+      </label>
+      <label>
+        <input type="radio" name="filter" id="completed">
+        <span>Completed</span>
+      </label>
+    </div>
+    <span class="clear">Clear Completed</span>
+  </nav>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br>
+    Coded by <a href="#">Lucas Carvalho Fenandes</a>
+  </footer>
+
+  <script src="src/scripts/index.js"></script>
+
+</body>
+
+</html>
